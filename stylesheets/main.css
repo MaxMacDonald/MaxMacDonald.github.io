@@ -9,13 +9,17 @@ body {
 .container {
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
-    width: max(50%, min(500px, 100%));
+    width: max(55%, min(500px, 100%));
     margin: 0 auto;
     padding: 20px;
 }
 
 header {
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-image {
@@ -79,7 +83,14 @@ strong {
     color: #dcdcdc;
     font-size: 1.5em;
     vertical-align: middle;
+    
+}
 
+.nav-item-current {
+    color: #dcdcdc;
+    font-size: 1.5em;
+    vertical-align: middle;
+    text-decoration: underline;
 
 }
 
