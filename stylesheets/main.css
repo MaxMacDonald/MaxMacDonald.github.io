@@ -7,7 +7,9 @@ body {
 }
 
 .container {
-    width: 60%;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: max(50%, min(500px, 100%));
     margin: 0 auto;
     padding: 20px;
 }
@@ -21,10 +23,11 @@ header {
     height: auto;
     display: block;
     vertical-align: middle;
+
 }
 
 h1 {
-    color: #6ab04c;
+    color: #e5a34f;
     font-size: 2em;
 }
 
@@ -34,7 +37,7 @@ h1 {
 }
 
 h2 {
-    color: #6ab04c;
+    color: #e5a34f;
 }
 
 em {
@@ -56,12 +59,9 @@ strong {
 }
 
 .nav-bar {
-    width: 60%;
-    margin: 0%;
-    padding-top: 0%;
-    padding-right: 20%;
-    padding-bottom: 0%;
-    padding-left: 20%;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: max(50%, min(500px, 100%));
     display: flex;
     align-items: center;
     justify-content: left;
@@ -84,7 +84,8 @@ strong {
 }
 
 .blog-card {
-  background-color: #252526;
-  padding: 20px;
-  margin-top: 20px;
+    background-color: #252526;
+    padding: 20px;
+    margin-top: 20px;
 }
+
